@@ -1,0 +1,18 @@
+brakeman:
+    executor: default
+    steps:
+      - attach_workspace:
+          at: ~/
+      - configure_bundler
+      - run:
+          name: Brakeman
+          command: bundle exec brakeman
+
+workflows:
+  version: 2
+  integration:
+    jobs:
+      - build
+      - brakeman:
+          requires:
+            - build
