@@ -1,0 +1,10 @@
+---
+name: get-stdin
+version: 4.0.1
+type: yarn
+homepage: https://github.com/sindresorhus/get-stdin.git
+license: mit
+licenses:
+- sources: readme.md
+  text: MIT © [Sindre Sorhus](http://sindresorhus.com)
+notices: []

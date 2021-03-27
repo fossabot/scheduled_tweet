@@ -1,0 +1,14 @@
+---
+name: brakeman
+version: 5.0.0
+type: bundler
+summary: Security vulnerability scanner for Ruby on Rails.
+homepage: https://brakemanscanner.org
+license: other
+licenses:
+- sources: README.md
+  text: |-
+    Brakeman is free for non-commercial use.
+
+    See [COPYING](COPYING.md) for details.
+notices: []

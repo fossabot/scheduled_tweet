@@ -1,0 +1,10 @@
+---
+name: "@rails/webpacker"
+version: 5.2.1
+type: yarn
+homepage: git+https://github.com/rails/webpacker.git
+license: mit
+licenses:
+- sources: README.md
+  text: Webpacker is released under the [MIT License](https://opensource.org/licenses/MIT).
+notices: []

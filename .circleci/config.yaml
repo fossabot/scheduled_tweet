@@ -8,11 +8,23 @@ brakeman:
           name: Brakeman
           command: bundle exec brakeman
 
+licensed:
+    executor: default
+    steps:
+      - attach_workspace:
+          at: ~/
+      - configure_bundler
+      - run: bundle exec licensed cache
+      - run: bundle exec licensed status
+
 workflows:
   version: 2
   integration:
     jobs:
       - build
       - brakeman:
+          requires:
+            - build
+      - licensed:
           requires:
             - build

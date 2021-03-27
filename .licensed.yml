@@ -1,0 +1,45 @@
+allowed:
+  - mit
+  - apache-2.0
+  - bsd-2-clause
+  - bsd-3-clause
+  - cc0-1.0
+  - isc
+  - 0bsd
+  - unlicense
+
+reviewed:
+  bundler:
+    - activerecord
+    - bcrypt
+    - concurrent-ruby
+    - websocket-driver
+    - websocket-extensions
+  
+  yarn:
+    - webpack
+    - yargs
+    - typedarray
+    - tty-browserify
+    - \@webassemblyjs/helper-fsm
+    - \@webassemblyjs/leb128
+    - \@xtuc/ieee754
+    - abbrev
+    - atob
+    - bcrypt-pbkdf
+    - block-stream
+    - cacache-12.0.4
+    - cacache-15.0.5
+    - caniuse-lite
+    - case-sensitive-paths-webpack-plugin
+    - color-convert
+    - dom-serializer
+    - domain-browser
+    - estraverse-4.3.0
+    - estraverse-5.2.0
+    - esutils
+    - figgy-pudding
+    - fs.realpath
+    - glob
+    - ieee754
+    - json-parse-even-better-errors

@@ -1,0 +1,10 @@
+---
+name: path-complete-extname
+version: 1.0.0
+type: yarn
+homepage: https://github.com/ruyadorno/path-complete-extname.git
+license: mit
+licenses:
+- sources: README.md
+  text: Released under the [MIT License](http://www.opensource.org/licenses/mit-license.php).
+notices: []
