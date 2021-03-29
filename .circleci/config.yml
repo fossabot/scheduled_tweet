@@ -25,7 +25,6 @@ jobs:
       steps:
         - attach_workspace:
             at: ~/
-        - configure_bundler
         - run:
             name: Brakeman
             command: bundle exec brakeman
@@ -35,7 +34,6 @@ jobs:
       steps:
         - attach_workspace:
             at: ~/
-        - configure_bundler
         - run: bundle exec licensed cache
         - run: bundle exec licensed status
 
