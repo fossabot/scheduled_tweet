@@ -1,4 +1,6 @@
 # README
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FArisBee%2Fscheduled_tweet.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FArisBee%2Fscheduled_tweet?ref=badge_shield)
+
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
@@ -22,3 +24,7 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FArisBee%2Fscheduled_tweet.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FArisBee%2Fscheduled_tweet?ref=badge_large)
