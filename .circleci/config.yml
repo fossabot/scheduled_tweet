@@ -21,7 +21,7 @@ jobs:
       - ruby/bundle-install
       
   brakeman:
-      executor: default
+      executor: ruby/default
       steps:
         - attach_workspace:
             at: ~/
@@ -30,7 +30,7 @@ jobs:
             command: bundle exec brakeman
 
   licensed:
-      executor: default
+      executor: ruby/default
       steps:
         - attach_workspace:
             at: ~/
