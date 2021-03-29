@@ -13,10 +13,9 @@ jobs:
           name: Force Bundler Version
           command: |
             sudo gem update --system
-            echo 'export BUNDLER_VERSION=$(cat Gemfile.lock | tail -1 | tr -d " ")' >> $BASH_ENV
-            source $BASH_ENV
             gem install bundler
-      - run:
+            bundle check || bundle config set --local path 'vendor/bundle' || bundle install --jobs=6 --retry=3
+      - run: 
           name: Which bundler?
           command: bundle -v
       - ruby/bundle-install
